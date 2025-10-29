@@ -1,9 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// 1️⃣ Import principali di librerie esterne (prima i CSS globali)
+import 'bootstrap-italia/dist/css/bootstrap-italia.min.css';
+import 'bootstrap-italia/dist/js/bootstrap-italia.bundle.min.js';
+
+// 2️⃣ Import dei tuoi stili personalizzati (DEVONO venire dopo)
+import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

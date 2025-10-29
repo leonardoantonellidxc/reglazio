@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+/* global.css */
+ 
+/* ============================= */
+/* RESET & BASE STYLES           */
+/* ============================= */
+.title{
+  color: #17324d;;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ 
+/* ============================= */
+/* LAYOUT CONTAINER              */
+/* ============================= */
+.container {
+  
+  margin: 2.5rem auto;
+  background: #F2F7FC;
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+ 
+  transition: box-shadow 0.3s ease;
+}
+ 
+
+ 
+/* ============================= */
+/* TYPOGRAPHY                    */
+/* ============================= */
+
+ 
+/* ============================= */
+/* BUTTONS                       */
+/* ============================= */
+
+/* ============================= */
+/* FORM ELEMENTS                 */
+/* ============================= */
+
+
+ 
+/* ============================= */
+/* SECTION BOX     stondato               */
+/* ============================= */
+.section-box {
+  margin-top: 1.5rem;
+  padding: 2rem 2rem;
+  border: 1px solid #e0e0e0;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pattern-container {
+  background-image: var(--pattern-background-image);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 300px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* ============================= */
+/* PATTERN DI SFONDO PAGINA      */
+/* ============================= */
+
+
+/* global.css */
+ 
+/* ============================= */
+/* RESET & BASE STYLES           */
+/* ============================= */
+.title{
+  color:#2F475E;
 }
 
-.App-link {
-  color: #61dafb;
+.titlename{
+  color: #0066cc !important;
+}
+ 
+/* ============================= */
+/* LAYOUT CONTAINER              */
+/* ============================= */
+
+
+ 
+/* ============================= */
+/* TYPOGRAPHY                    */
+/* ============================= */
+
+ 
+/* ============================= */
+/* BUTTONS                       */
+/* ============================= */
+
+/* ============================= */
+/* FORM ELEMENTS                 */
+/* ============================= */
+
+
+ 
+/* ============================= */
+/* SECTION BOX     stondato               */
+/* ============================= */
+.section-box {
+  margin-top: 1.5rem;
+  padding: 2rem 2rem;
+  border: 1px solid #e0e0e0;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section-box-user {
+  margin-top: 1.5rem;
+  padding: 1.2rem 1.5rem;
+ 
+
 }
+
+.pattern-container {
+  background-image: var(--pattern-background-image);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 300px;
+}
+
+/* ============================= */
+/* PATTERN DI SFONDO PAGINA      */
+/* ============================= */
